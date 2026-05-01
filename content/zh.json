@@ -1,0 +1,110 @@
+{
+  "hero": {
+    "name": "饶芝筠 Sela Rao",
+    "tagline": "立足财富管理与资产配置，正在持续打磨面向高净值客户的资产管理能力。",
+    "quickFacts": [
+      "HKUST BBA (Management)",
+      "Asset Management Focus",
+      "正在学习 Python / VBA",
+      "ENTJ · 来自上海"
+    ]
+  },
+  "sections": {
+    "education": "教育经历",
+    "experience": "实习与项目经历",
+    "asset": "资产管理方向",
+    "awards": "竞赛与荣誉",
+    "outside": "Outside of Work",
+    "singers": "我常听的歌手",
+    "travel": "Traveling 地图"
+  },
+  "education": {
+    "school": "香港科技大学 (HKUST)",
+    "program": "Management BBA，预计 2029 年毕业",
+    "courses": [
+      "Accounting",
+      "Business Statistics",
+      "Financial Management",
+      "Coding for Business",
+      "Business Analytics"
+    ]
+  },
+  "experience": [
+    {
+      "company": "CASH Financial Services Group",
+      "role": "Private Wealth Management Intern",
+      "date": "2025.12 - 2026.02",
+      "summary": "围绕高净值客户投资需求，参与资产配置、产品匹配、权益研究和宏观事件分析。"
+    },
+    {
+      "company": "HSBC PB Case Challenge 2026",
+      "role": "Team Leader",
+      "date": "2026.02 - 2026.03",
+      "summary": "带队完成另类投资研究与客户沟通策略设计，并主导最终提案视觉呈现。"
+    },
+    {
+      "company": "Nomura Discovery Program",
+      "role": "Participant",
+      "date": "2026.03",
+      "summary": "在股票与固收交易模拟中取得前列表现，强调长期持有与分散化配置。"
+    }
+  ],
+  "assetIntro": "我希望在 EAM / Wealth Management 赛道形成自己的方法论：将客户风险偏好、生命周期目标和市场周期动态结合，给出可执行、可解释的资产配置方案。",
+  "assetManagementFocus": [
+    "External Asset Management 服务提案",
+    "高净值客户股票基本面与对比研究",
+    "多资产组合配置与波动控制",
+    "结构化产品与衍生品用于风险对冲",
+    "基金月报拆解与组合再平衡"
+  ],
+  "awards": [
+    "USABO 全国金奖",
+    "BBO 全球铜奖",
+    "National Economic Challenge: Overall Bronze"
+  ],
+  "outsideOfWork": {
+    "animals": {
+      "title": "小动物",
+      "preview": "我很喜欢和小动物相处，宠物是我生活里的治愈来源。",
+      "details": "这里可以放我的宠物照片、名字、故事和日常记录。"
+    },
+    "painting": {
+      "title": "画画",
+      "preview": "我会长期画画，用视觉表达记录情绪和灵感。",
+      "details": "这里可以放作品集，按主题或时间分类，展示创作过程。"
+    },
+    "musicals": {
+      "title": "音乐剧",
+      "preview": "我很喜欢音乐剧，舞台和叙事很能激发我的想象力。",
+      "details": ""
+    },
+    "musicTaste": {
+      "title": "听歌偏好",
+      "preview": "音乐是我高频输入灵感和调节节奏的方式。",
+      "details": ""
+    }
+  },
+  "favoriteSingers": ["Ariana Grande", "Keyshia Cole", "FLO"],
+  "travelIntro": "把去过的地方做成一张动态地图，后续可以加入照片、行程和印象。",
+  "travelCountries": ["Japan", "Korea", "Vietnam", "Thailand", "Cambodia", "USA"],
+  "travelLabels": {
+    "Japan": "日本",
+    "Korea": "韩国",
+    "Vietnam": "越南",
+    "Thailand": "泰国",
+    "Cambodia": "柬埔寨",
+    "USA": "美国"
+  },
+  "travelHover": {
+    "Japan": "城市体验 + 美术馆打卡",
+    "Korea": "短途旅行与文化体验",
+    "Vietnam": "城市探索与街区文化",
+    "Thailand": "海岛与城市双线行程",
+    "Cambodia": "历史文化与古迹参访",
+    "USA": "城市旅行与校园参观"
+  },
+  "placeholders": {
+    "photoHint": "你可以在这里替换成真实照片或图文模块（建议 3:2 横图）。"
+  },
+  "footer": "Editable Portfolio Draft · 可通过后台继续修改内容与图片"
+}

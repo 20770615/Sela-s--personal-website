@@ -1,0 +1,110 @@
+{
+  "hero": {
+    "name": "Zhiyun (Sela) Rao",
+    "tagline": "Building a career in wealth and asset management with a strong focus on client-centered portfolio strategy.",
+    "quickFacts": [
+      "HKUST BBA (Management)",
+      "Asset Management Focus",
+      "Learning Python / VBA",
+      "ENTJ · From Shanghai"
+    ]
+  },
+  "sections": {
+    "education": "Education",
+    "experience": "Experience",
+    "asset": "Asset Management Direction",
+    "awards": "Awards",
+    "outside": "Outside of Work",
+    "singers": "Favorite Artists",
+    "travel": "Travel Map"
+  },
+  "education": {
+    "school": "Hong Kong University of Science and Technology",
+    "program": "BBA in Management, Expected Graduation: 2029",
+    "courses": [
+      "Accounting",
+      "Business Statistics",
+      "Financial Management",
+      "Coding for Business",
+      "Business Analytics"
+    ]
+  },
+  "experience": [
+    {
+      "company": "CASH Financial Services Group",
+      "role": "Private Wealth Management Intern",
+      "date": "Dec 2025 - Feb 2026",
+      "summary": "Supported high-net-worth client coverage through allocation planning, equity analysis, and macro-driven portfolio insights."
+    },
+    {
+      "company": "HSBC PB Case Challenge 2026",
+      "role": "Team Leader",
+      "date": "Feb 2026 - Mar 2026",
+      "summary": "Led alternative investment research and designed a data-backed client communication strategy."
+    },
+    {
+      "company": "Nomura Discovery Program",
+      "role": "Participant",
+      "date": "Mar 2026",
+      "summary": "Placed among top simulation performers in equity and fixed income by using disciplined diversification logic."
+    }
+  ],
+  "assetIntro": "I am currently shaping my EAM / wealth management profile by combining client goals, risk tolerance, and market cycles into actionable portfolio frameworks.",
+  "assetManagementFocus": [
+    "External Asset Management service pitch",
+    "Fundamental and peer equity analysis for HNW portfolios",
+    "Multi-asset portfolio allocation with volatility control",
+    "Use of structured products and derivatives for hedging",
+    "Monthly fund report diagnosis and rebalancing ideas"
+  ],
+  "awards": [
+    "USABO National Gold",
+    "BBO Global Bronze",
+    "National Economic Challenge: Overall Bronze"
+  ],
+  "outsideOfWork": {
+    "animals": {
+      "title": "Animals",
+      "preview": "I love spending time with animals and documenting little moments with my pets.",
+      "details": "Use this block for pet photos, names, stories, and daily snapshots."
+    },
+    "painting": {
+      "title": "Painting",
+      "preview": "Drawing is my long-term creative practice and emotional outlet.",
+      "details": "Use this block as an artwork gallery and creation journal."
+    },
+    "musicals": {
+      "title": "Musicals",
+      "preview": "I enjoy musicals for their stage storytelling and emotional impact.",
+      "details": ""
+    },
+    "musicTaste": {
+      "title": "Music Taste",
+      "preview": "Music helps me keep momentum and shape my daily rhythm.",
+      "details": ""
+    }
+  },
+  "favoriteSingers": ["Ariana Grande", "Keyshia Cole", "FLO"],
+  "travelIntro": "A visual map of where I have traveled, with room for photos and notes later.",
+  "travelCountries": ["Japan", "Korea", "Vietnam", "Thailand", "Cambodia", "USA"],
+  "travelLabels": {
+    "Japan": "Japan",
+    "Korea": "Korea",
+    "Vietnam": "Vietnam",
+    "Thailand": "Thailand",
+    "Cambodia": "Cambodia",
+    "USA": "USA"
+  },
+  "travelHover": {
+    "Japan": "City trips and museum visits",
+    "Korea": "Short city break and culture",
+    "Vietnam": "Street and neighborhood exploration",
+    "Thailand": "Island and city mixed trip",
+    "Cambodia": "History and heritage landmarks",
+    "USA": "City travel and campus visits"
+  },
+  "placeholders": {
+    "photoHint": "Replace this block with your real photos or richer media modules."
+  },
+  "footer": "Editable Portfolio Draft · Content and media can be updated"
+}

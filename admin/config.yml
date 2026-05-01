@@ -1,0 +1,116 @@
+backend:
+  name: github
+  repo: your-github-username/your-repo-name
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "site_content_zh"
+    label: "Site Content (Chinese)"
+    format: "json"
+    files:
+      - label: "Chinese Content"
+        name: "zh"
+        file: "content/zh.json"
+        fields:
+          - { label: "Hero", name: "hero", widget: "object", fields: [
+              { label: "Name", name: "name", widget: "string" },
+              { label: "Tagline", name: "tagline", widget: "text" },
+              { label: "Quick Facts", name: "quickFacts", widget: "list", field: { label: "Fact", name: "fact", widget: "string" } }
+            ] }
+          - { label: "Sections", name: "sections", widget: "object", fields: [
+              { label: "Education", name: "education", widget: "string" },
+              { label: "Experience", name: "experience", widget: "string" },
+              { label: "Asset", name: "asset", widget: "string" },
+              { label: "Awards", name: "awards", widget: "string" },
+              { label: "Outside", name: "outside", widget: "string" },
+              { label: "Singers", name: "singers", widget: "string" },
+              { label: "Travel", name: "travel", widget: "string" }
+            ] }
+          - { label: "Education Block", name: "education", widget: "object", fields: [
+              { label: "School", name: "school", widget: "string" },
+              { label: "Program", name: "program", widget: "string" },
+              { label: "Courses", name: "courses", widget: "list", field: { label: "Course", name: "course", widget: "string" } }
+            ] }
+          - { label: "Experience List", name: "experience", widget: "list", summary: "{{fields.role}} - {{fields.company}}", fields: [
+              { label: "Company", name: "company", widget: "string" },
+              { label: "Role", name: "role", widget: "string" },
+              { label: "Date", name: "date", widget: "string" },
+              { label: "Summary", name: "summary", widget: "text" }
+            ] }
+          - { label: "Asset Intro", name: "assetIntro", widget: "text" }
+          - { label: "Asset Focus", name: "assetManagementFocus", widget: "list", field: { label: "Focus", name: "focus", widget: "string" } }
+          - { label: "Awards", name: "awards", widget: "list", field: { label: "Award", name: "award", widget: "string" } }
+          - { label: "Outside Of Work", name: "outsideOfWork", widget: "object", fields: [
+              { label: "Animals", name: "animals", widget: "object", fields: [
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Preview", name: "preview", widget: "text" },
+                  { label: "Details", name: "details", widget: "text" }
+                ] },
+              { label: "Painting", name: "painting", widget: "object", fields: [
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Preview", name: "preview", widget: "text" },
+                  { label: "Details", name: "details", widget: "text" }
+                ] },
+              { label: "Musicals", name: "musicals", widget: "object", fields: [
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Preview", name: "preview", widget: "text" },
+                  { label: "Details", name: "details", widget: "text" }
+                ] },
+              { label: "Music Taste", name: "musicTaste", widget: "object", fields: [
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Preview", name: "preview", widget: "text" },
+                  { label: "Details", name: "details", widget: "text" }
+                ] }
+            ] }
+          - { label: "Favorite Singers", name: "favoriteSingers", widget: "list", field: { label: "Singer", name: "singer", widget: "string" } }
+          - { label: "Travel Intro", name: "travelIntro", widget: "text" }
+          - { label: "Travel Countries", name: "travelCountries", widget: "list", field: { label: "Country Key", name: "country", widget: "string" } }
+          - { label: "Footer", name: "footer", widget: "string" }
+
+  - name: "site_content_en"
+    label: "Site Content (English)"
+    format: "json"
+    files:
+      - label: "English Content"
+        name: "en"
+        file: "content/en.json"
+        fields:
+          - { label: "Hero", name: "hero", widget: "object", fields: [
+              { label: "Name", name: "name", widget: "string" },
+              { label: "Tagline", name: "tagline", widget: "text" },
+              { label: "Quick Facts", name: "quickFacts", widget: "list", field: { label: "Fact", name: "fact", widget: "string" } }
+            ] }
+          - { label: "Experience List", name: "experience", widget: "list", summary: "{{fields.role}} - {{fields.company}}", fields: [
+              { label: "Company", name: "company", widget: "string" },
+              { label: "Role", name: "role", widget: "string" },
+              { label: "Date", name: "date", widget: "string" },
+              { label: "Summary", name: "summary", widget: "text" }
+            ] }
+          - { label: "Asset Intro", name: "assetIntro", widget: "text" }
+          - { label: "Outside Of Work", name: "outsideOfWork", widget: "object", fields: [
+              { label: "Animals", name: "animals", widget: "object", fields: [
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Preview", name: "preview", widget: "text" },
+                  { label: "Details", name: "details", widget: "text" }
+                ] },
+              { label: "Painting", name: "painting", widget: "object", fields: [
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Preview", name: "preview", widget: "text" },
+                  { label: "Details", name: "details", widget: "text" }
+                ] },
+              { label: "Musicals", name: "musicals", widget: "object", fields: [
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Preview", name: "preview", widget: "text" },
+                  { label: "Details", name: "details", widget: "text" }
+                ] },
+              { label: "Music Taste", name: "musicTaste", widget: "object", fields: [
+                  { label: "Title", name: "title", widget: "string" },
+                  { label: "Preview", name: "preview", widget: "text" },
+                  { label: "Details", name: "details", widget: "text" }
+                ] }
+            ] }
+          - { label: "Favorite Singers", name: "favoriteSingers", widget: "list", field: { label: "Singer", name: "singer", widget: "string" } }
+          - { label: "Travel Countries", name: "travelCountries", widget: "list", field: { label: "Country Key", name: "country", widget: "string" } }
